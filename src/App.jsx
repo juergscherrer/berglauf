@@ -6,7 +6,7 @@ import { csvdata } from "./startliste";
 const KEY_CODE_ENTER = 13;
 
 const rawData = Papa.parse(csvdata, {
-  delimiter: ",", // auto-detect
+  delimiter: ";", // auto-detect
   quoteChar: '"',
   escapeChar: '"',
   header: true,
